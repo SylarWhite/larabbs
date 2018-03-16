@@ -36,6 +36,9 @@ class SeedCategoriesData extends Migration
 
     }
 
+
+
+
     /**
      * Reverse the migrations.
      *
