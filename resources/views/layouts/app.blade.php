@@ -15,7 +15,7 @@
     @include('layouts._header')
 
     <div class="container">
-        @yield('conten')
+        @yield('content')
     </div>
 
     @include('layouts._footer')
