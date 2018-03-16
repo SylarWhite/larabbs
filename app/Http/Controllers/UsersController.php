@@ -32,6 +32,13 @@ class UsersController extends Controller
     }
 
 
+    /**
+     * @param UserRequest $request
+     * @param ImageUploadHandler $uploader
+     * @param User $user
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Illuminate\Auth\Access\AuthorizationException
+     */
     public function update(UserRequest $request, ImageUploadHandler $uploader, User $user)
     {
         $this->authorize('update',$user);
